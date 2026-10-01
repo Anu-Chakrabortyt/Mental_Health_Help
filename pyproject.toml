@@ -1,0 +1,19 @@
+[project]
+name = "mental-health"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.142.2",
+    "geopy>=2.5.0",
+    "langchain>=1.4.3",
+    "langchain-ollama>=1.1.0",
+    "langchain-openai>=1.6.7",
+    "langgraph>=1.2.12",
+    "ollama>=0.6.3",
+    "pydantic>=2.13.5",
+    "requests>=2.34.2",
+    "streamlit>=1.64.0",
+    "unicorn>=2.1.4",
+]
